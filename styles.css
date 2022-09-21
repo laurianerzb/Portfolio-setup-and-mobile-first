@@ -1,0 +1,148 @@
+:root {
+  --font-family: 'Poppins';
+  --color1: #ebebff;
+  --color2: #6070ff;
+}
+
+body {
+  background-image: url("images/header-background-mobile.png");
+  position: absolute;
+  width: 380px;
+  height: 720px;
+  left: 0;
+  top: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  display: flex;
+}
+
+.logo {
+  width: 50%;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-family: var(--font-family);
+  font-style: normal;
+  color: var(--color2);
+  font-size: 18px;
+  width: 76px;
+  height: 20px;
+}
+
+.navbar {
+  position: relative;
+  top: 0;
+  background-color: none;
+  width: 50%;
+  height: 100px;
+}
+
+.navbar li {
+  float: right;
+  right: 15px;
+  top: 50%;
+}
+
+.navbar li a {
+  display: block;
+  color: #2a7add;
+  text-align: center;
+  padding: 10px 10px;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+h1 {
+  display: flex;
+  width: 327px;
+  height: 150px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  align-items: center;
+  color: #172b4d;
+}
+
+.rectangle4 {
+  position: absolute;
+  width: 95.58px;
+  height: 22.02px;
+  left: 300px;
+  top: 150px;
+  background: var(--color1);
+  transform: rotate(-31deg);
+}
+
+.about-text {
+  display: flex;
+  width: 327px;
+  height: 146px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 380;
+  font-size: 16px;
+  color: #344563;
+  overflow: auto;
+}
+
+.connect {
+  padding-top: none;
+  width: 117px;
+  height: 24px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: #7f8cff;
+}
+
+.contact {
+  display: flex;
+}
+
+#profile-link {
+  padding: 10px;
+  font-size: 25px;
+  overflow: auto;
+}
+
+.eclipse4 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 236px;
+  top: 657px;
+  background: var(--color2);
+  border-radius: 50%;
+}
+
+.rectangle5 {
+  position: absolute;
+  width: 68.05px;
+  height: 12.17px;
+  left: 190.82px;
+  top: 650px;
+  background: var(--color1);
+  transform: rotate(23.34deg);
+}
+
+.eclipse15 {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 53px;
+  top: 645px;
+}
