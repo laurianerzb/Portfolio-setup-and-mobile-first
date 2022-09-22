@@ -150,12 +150,6 @@ h1 {
 
 /* WORK SECTION */
 
-.work-section {
-  width: 295px;
-  height: 218px;
-  border-radius: 3px;
-}
-
 .work-grid {
   display: grid;
   gap: 30px;
