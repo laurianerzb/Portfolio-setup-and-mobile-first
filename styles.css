@@ -107,6 +107,7 @@ h1 {
   font-weight: bold;
   font-size: 14px;
   color: #7f8cff;
+  margin-left: 10px;
 }
 
 .contact {
@@ -145,4 +146,201 @@ h1 {
   height: 15px;
   left: 53px;
   top: 645px;
+}
+
+/* WORK SECTION */
+
+.work-section {
+  width: 295px;
+  height: 218px;
+  border-radius: 3px;
+}
+
+.work-grid {
+  display: grid;
+  gap: 30px;
+}
+
+.project-work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 18px;
+  gap: 10px;
+  width: 327px;
+  height: 555px;
+  background: #fff;
+  border: 2px solid #dfe1e6;
+  border-radius: 17px;
+}
+
+.project-work h3 {
+  width: 290px;
+  height: 35px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  color: #172b4d;
+}
+
+.project-work .project-span {
+  width: 53px;
+  height: 15px;
+  font-family: var(--color1);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  color: #344563;
+}
+
+.project-work .project-text {
+  width: 295px;
+  height: 76px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 4380;
+  font-size: 15px;
+  color: #344563;
+}
+
+.project-list-items {
+  width: 300px;
+}
+
+.project-list-items li {
+  display: inline;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: auto;
+  padding-right: 20px;
+}
+
+#project-list {
+  border: 0.1px;
+  border-radius: 5px;
+  background: #ebebff;
+  text-align: center;
+  align-items: center;
+}
+
+.project-button {
+  width: 100px;
+  height: 30px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  align-items: center;
+  text-align: center;
+  color: #396df2;
+  border-color: 1px solid blue;
+  border-radius: 8px;
+  background: #ebebff;
+  margin: 10px;
+  border-bottom: 0;
+  border-right: 0;
+}
+
+/* ABOUT MYSELF SECTION */
+
+.about-myself {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  height: 1263px;
+  left: 375px;
+  top: 4769px;
+  background-image: url(images/Base-about-myself.png);
+  background-repeat: no-repeat;
+  border: 2px solid #dfe1e6;
+  border-radius: 27px;
+}
+
+h2 {
+  display: flex;
+  width: 327px;
+  height: 101px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  align-items: center;
+  padding-top: 30px;
+  color: #172b4d;
+  padding-left: 10px;
+}
+
+.about-myself-text {
+  width: 328px;
+  height: 144px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  color: #344563;
+  padding-left: 20px;
+}
+
+.resume {
+  display: flex;
+  width: 138px;
+  height: 25px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  align-items: center;
+  text-align: center;
+  color: #396df2;
+  border-radius: 8px;
+  background-color: #ebebff;
+  padding-left: 8px;
+  border-bottom: 0;
+  border-right: 0;
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+
+.categories {
+  margin-top: 10px;
+}
+
+.button-categor {
+  display: flex;
+  flex-direction: column;
+}
+
+.categories #about-myself-cat-button {
+  border-bottom: 0;
+  border-right: 0;
+  width: 303px;
+  height: 66.72px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin-bottom: 2px;
+}
+
+#about-myself-cat {
+  display: flex;
+  align-items: center;
+  height: 24px;
+  width: 310px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  left: 12px;
+  right: 78px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.fa-cat {
+  margin-left: 170px;
+}
+
+.hr {
+  margin-top: 20px;
+  margin-right: 20px;
 }
