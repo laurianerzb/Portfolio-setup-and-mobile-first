@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap");
+
 :root {
   --font-family: 'Poppins';
   --color1: #ebebff;
@@ -99,7 +101,6 @@ h1 {
 }
 
 .connect {
-  padding-top: none;
   width: 117px;
   height: 24px;
   font-family: var(--font-family);
@@ -107,6 +108,7 @@ h1 {
   font-weight: bold;
   font-size: 14px;
   color: #7f8cff;
+  margin-left: 10px;
 }
 
 .contact {
@@ -145,4 +147,241 @@ h1 {
   height: 15px;
   left: 53px;
   top: 645px;
+}
+
+/* WORK SECTION */
+.work-section {
+  height: 2700px;
+  width: 375px;
+  left: 1px;
+  top: 718px;
+  border-radius: 8px;
+  padding: 114px 24px 114px 24px;
+  margin-top: 150px;
+  border-top: 1px solid lightgreen;
+}
+
+.work-grid {
+  display: grid;
+  gap: 30px;
+}
+
+.project-work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 18px;
+  gap: 10px;
+  width: 327px;
+  height: 600px;
+  background: #fff;
+  border: 2px solid #dfe1e6;
+  border-radius: 17px;
+}
+
+.project-work h3 {
+  width: 290px;
+  height: 35px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  color: #172b4d;
+}
+
+.span {
+  display: flex;
+  padding: 10px;
+}
+
+.project-span {
+  flex: auto;
+  margin: 10px;
+}
+
+.span-2,
+.span-3 {
+  color: #7a869a;
+}
+
+.project-work .project-text {
+  width: 295px;
+  height: 76px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 380;
+  font-size: 15px;
+  color: #344563;
+}
+
+.project-list-items {
+  width: 300px;
+  color: var(--color2);
+}
+
+.project-list-items li {
+  display: inline;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: auto;
+  padding-right: 20px;
+}
+
+#project-list {
+  border: 0.1px;
+  border-radius: 8px;
+  height: 24px;
+  width: 89px;
+  background: #ebebff;
+  text-align: center;
+  align-items: center;
+}
+
+.project-button {
+  width: 295;
+  height: 73px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  align-items: center;
+  text-align: center;
+  color: #396df2;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  background: #ebebff;
+  margin-right: 200px;
+}
+
+button:hover {
+  background-color: grey;
+  color: white;
+}
+
+/* ABOUT MYSELF SECTION */
+
+.about-myself {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  height: 1263px;
+  left: 375px;
+  top: 4769px;
+  background-image: url(images/Base-about-myself.png);
+  background-repeat: no-repeat;
+  border: 2px solid #dfe1e6;
+  border-radius: 27px;
+}
+
+h2 {
+  display: flex;
+  flex: none;
+  width: 327px;
+  height: 101px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  align-items: center;
+  padding-top: 30px;
+  color: #172b4d;
+  padding-left: 10px;
+}
+
+.about-myself-text {
+  width: 327px;
+  height: 140px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #344563;
+  padding-left: 20px;
+  line-height: 23px;
+}
+
+.resume {
+  display: flex;
+  flex: none;
+  order: 0;
+  width: 150px;
+  height: 40px;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  align-items: center;
+  text-align: center;
+  color: #396df2;
+  border-radius: 8px;
+  background-color: #ebebff;
+  border: 1px solid #6070ff;
+  margin-left: 10px;
+}
+
+.categories {
+  margin-top: 10px;
+}
+
+.button-categor {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-categor #about-myself-cat-button {
+  display: block;
+  border-bottom: 0;
+  border-right: 0;
+  width: 290px;
+  height: 66.72px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin-bottom: 4px;
+  margin-right: 200px;
+  overflow: auto;
+}
+
+#about-myself-cat {
+  display: flex;
+  align-items: center;
+  height: 24px;
+  width: 310px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  left: 12px;
+  right: 78px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.li-image {
+  float: left;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.li-text {
+  float: left;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.fa-cat {
+  margin-left: 170px;
+}
+
+.hr {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+#about-myself-cat i {
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+  align-items: center;
 }
