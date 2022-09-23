@@ -99,7 +99,6 @@ h1 {
 }
 
 .connect {
-  padding-top: none;
   width: 117px;
   height: 24px;
   font-family: var(--font-family);
@@ -149,6 +148,16 @@ h1 {
 }
 
 /* WORK SECTION */
+.work-section {
+  height: 2700px;
+  width: 375px;
+  left: 0;
+  top: 718px;
+  border-radius: 8px;
+  padding: 114px 24px 114px 24px;
+  margin-top: 150px;
+  border-top: 1px solid lightgreen;
+}
 
 .work-grid {
   display: grid;
@@ -162,7 +171,7 @@ h1 {
   padding: 18px;
   gap: 10px;
   width: 327px;
-  height: 555px;
+  height: 600px;
   background: #fff;
   border: 2px solid #dfe1e6;
   border-radius: 17px;
@@ -178,14 +187,19 @@ h1 {
   color: #172b4d;
 }
 
-.project-work .project-span {
-  width: 53px;
-  height: 15px;
-  font-family: var(--color1);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 13px;
-  color: #344563;
+.span {
+  display: flex;
+  padding: 10px;
+}
+
+.project-span {
+  flex: auto;
+  margin: 10px;
+}
+
+.span-2,
+.span-3 {
+  color: #7a869a;
 }
 
 .project-work .project-text {
@@ -193,13 +207,14 @@ h1 {
   height: 76px;
   font-family: var(--font-family);
   font-style: normal;
-  font-weight: 4380;
+  font-weight: 380;
   font-size: 15px;
   color: #344563;
 }
 
 .project-list-items {
   width: 300px;
+  color: var(--color2);
 }
 
 .project-list-items li {
@@ -213,15 +228,17 @@ h1 {
 
 #project-list {
   border: 0.1px;
-  border-radius: 5px;
+  border-radius: 8px;
+  height: 24px;
+  width: 89px;
   background: #ebebff;
   text-align: center;
   align-items: center;
 }
 
 .project-button {
-  width: 100px;
-  height: 30px;
+  width: 295;
+  height: 73px;
   font-family: var(--font-family);
   font-style: normal;
   font-weight: 300;
@@ -229,12 +246,15 @@ h1 {
   align-items: center;
   text-align: center;
   color: #396df2;
-  border-color: 1px solid blue;
+  border: 1px solid #6070ff;
   border-radius: 8px;
   background: #ebebff;
-  margin: 10px;
-  border-bottom: 0;
-  border-right: 0;
+  margin-right: 200px;
+}
+
+button:hover {
+  background-color: grey;
+  color: white;
 }
 
 /* ABOUT MYSELF SECTION */
@@ -269,19 +289,20 @@ h2 {
 
 .about-myself-text {
   width: 328px;
-  height: 144px;
+  height: 140px;
   font-family: var(--font-family);
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 16px;
   color: #344563;
   padding-left: 20px;
+  line-height: 23px;
 }
 
 .resume {
   display: flex;
-  width: 138px;
-  height: 25px;
+  width: 140px;
+  height: 40px;
   font-family: var(--font-family);
   font-style: normal;
   font-weight: 500;
@@ -291,11 +312,8 @@ h2 {
   color: #396df2;
   border-radius: 8px;
   background-color: #ebebff;
-  padding-left: 8px;
-  border-bottom: 0;
-  border-right: 0;
-  margin-left: 5px;
-  margin-bottom: 20px;
+  border: 1px solid #6070ff;
+  margin-left: 10px;
 }
 
 .categories {
@@ -310,11 +328,12 @@ h2 {
 .categories #about-myself-cat-button {
   border-bottom: 0;
   border-right: 0;
-  width: 303px;
+  width: 290px;
   height: 66.72px;
   background: #f7f7f9;
   border-radius: 8px;
   margin-bottom: 2px;
+  margin-right: 200px;
 }
 
 #about-myself-cat {
@@ -328,6 +347,20 @@ h2 {
   right: 78px;
   font-weight: 500;
   font-size: 20px;
+}
+
+.li-image {
+  float: left;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.li-text {
+  float: left;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
 }
 
 .fa-cat {
