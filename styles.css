@@ -23,8 +23,6 @@ body {
   background: #f4f5f7;
 }
 
-/* HEAD SECTION */
-
 .h-content {
   max-width: 80%;
   margin: 0 auto;
@@ -178,12 +176,12 @@ nav {
   color: white;
 }
 
-/* ABOUT MYSELF */
-
 .about-section {
   border-top-right-radius: 100px;
   padding: 114px 0;
 }
+
+/* ABOUT MYSELF SECTION********* */
 
 .about-container {
   margin-left: 50px;
@@ -249,4 +247,108 @@ nav {
   background: #f7f7f9;
   border-radius: 8px;
   padding: 12px;
+}
+
+/* CONTACT SECTION */
+
+.contact-section {
+  background-image: url(images/contact\ form\ shapes-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #6070ff;
+  border-top-left-radius: 98px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  padding: 10%;
+  width: 90%;
+  min-width: 375px;
+  height: 779px;
+  left: 0;
+}
+
+.contact-section h2 {
+  font-size: 40px;
+  color: white;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+  margin-right: 30px;
+  height: 56px;
+}
+
+.contact-section p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 401;
+  color: #ebebff;
+  align-items: center;
+  width: 327px;
+  height: 102px;
+  left: 24px;
+  top: 4802px;
+  margin: 13px 60px;
+}
+
+form {
+  padding: 1em;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 50px 50px;
+}
+
+input {
+  height: 48px;
+}
+
+input,
+textarea {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  background: #f7f7f9;
+  border-radius: 8px;
+  padding: 12px;
+  border: none;
+  height: 50px;
+  width: 80%;
+}
+
+textarea {
+  vertical-align: top;
+  height: 170px;
+  resize: none;
+}
+
+.c-form-container button {
+  display: inline-block;
+  background-color: #fff;
+  font-weight: 500;
+  font-size: 17px;
+  color: #6070ff;
+  border: none;
+  padding: 0.8rem 2rem;
+  align-self: flex-start;
+  border-radius: 8px;
+  margin: 3px 20px;
+  height: 48px;
+}
+
+.c-form-container button:hover {
+  color: red;
+  font-size: 19px;
+}
+
+.line-bar {
+  text-align: center;
+  align-items: center;
+  margin-top: -65px;
+  width: 134px;
+  height: 5px;
+  bottom: 8px;
+  border-radius: 10px;
 }
