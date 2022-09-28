@@ -325,8 +325,6 @@ textarea {
   background-color: #fff;
   font-weight: 500;
   font-size: 17px;
-  /* line-height: 24px; */
-  /* letter-spacing: 0.03em; */
   color: #6070ff;
   border: none;
   padding: 0.8rem 2rem;
@@ -337,4 +335,3 @@ textarea {
   color: red;
   background-color: #fff;
 }
-
