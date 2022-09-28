@@ -199,29 +199,20 @@
     </section>
     <!-----------------CONTACT SECTION---------------------------->
     <section class="contact-section">
-      <div class="c-container">
-          <h2>Contact me</h2>
-          <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it </p>
-        <form class="c-form-container" action="https://formspree.io/f/xyyvwogq" method="post">
-          <ul class="c-form">
-            <li>
-              <label for="name"></label>
+          <h2 class="contact-title">Contact me</h2>
+          <p class="contact-desc">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it </p>
+
+        <form
+            class="c-form-container"
+            action="https://formspree.io/f/xyyvwogq"
+            method="post"
+        >
+
               <input type="text" id="name" name="username" maxlength="30" placeholder="name here" required/>
-            </li>
-            <li>
-              <label for="email"></label>
               <input type="email" id="email" name="email" placeholder="email here" required/>
-            </li>
-            <li>
-              <label for="message"></label>
               <textarea id="message" name="user_message" maxlength="500" placeholder="write your message here" required></textarea>
-            </li>
-            <li>
               <button class="c-button" type="submit">Get in touch</button>
-            </li>
-          </ul>
         </form>
-      </div>
     </section>
   </body>
 </html>
