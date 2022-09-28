@@ -253,10 +253,12 @@ nav {
   background-size: cover;
   background-color: #6070ff;
   border-top-left-radius: 98px;
-  width: 90%;
-  height: 779px;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-left: 10px;
+  padding: 10%;
 }
 
 .contact-section h2 {
@@ -269,24 +271,19 @@ nav {
 
 .contact-section p {
   margin: 13px 0;
-  align-items: center;
   text-align: center;
   font-size: 20px;
   font-weight: 401;
-  height: 100px;
-  width: 503px;
   color: #ebebff;
-  left: 25px;
-  top: 500px;
 }
 
 form {
-  margin: auto;
-  width: 600px;
   padding: 1em;
   border-radius: 1em;
   display: flex;
-  flex: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 ul {
@@ -321,19 +318,19 @@ textarea {
 textarea {
   vertical-align: top;
   height: 140px;
+  resize: none;
 }
 
-.c-form button {
+.c-button {
   background-color: #fff;
   font-weight: 500;
   font-size: 17px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
+  /* line-height: 24px; */
+  /* letter-spacing: 0.03em; */
   color: #6070ff;
   border: none;
+  padding: 0.8rem 2rem;
+  align-self: flex-start;
 }
 
 .c-form button:hover {
@@ -341,17 +338,3 @@ textarea {
   background-color: #fff;
 }
 
-.c-form li:last-child {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 12px 16px;
-  width: 140px;
-  height: 48px;
-  left: 24px;
-  top: 5317px;
-  color: #6070ff;
-  background: #fff;
-  border-radius: 8px;
-  margin-left: 10px;
-}
