@@ -178,12 +178,12 @@ nav {
   color: white;
 }
 
+/* ABOUT MYSELF SECTION********* */
 .about-section {
+  background-color: white;
   border-top-right-radius: 100px;
   padding: 114px 0;
 }
-
-/* ABOUT MYSELF SECTION********* */
 
 .about-container {
   margin-left: 50px;
@@ -259,8 +259,8 @@ nav {
   background-size: cover;
   background-color: #6070ff;
   border-top-left-radius: 98px;
-  width: 90%;
-  height: 779px;
+  width: 100%;
+  min-width: 375px;
   display: flex;
   margin-left: 10px;
 }
@@ -363,7 +363,7 @@ textarea {
 }
 
 /* Desktop version QUERIES */
-@media (min-width: 764px) {
+@media (min-width: 768px) {
   header nav {
     padding: 1rem 10%;
   }
@@ -387,6 +387,7 @@ textarea {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    background-color: white;
   }
 
   .h-main h1 {
@@ -406,6 +407,12 @@ textarea {
   }
 
   /* about section */
+
+  .about-section {
+    background-color: white;
+    border-top-right-radius: 100px;
+    padding: 114px 0;
+  }
 
   .about-container {
     float: left;
@@ -436,5 +443,16 @@ textarea {
 
   .c-container h2 {
     margin: 0;
+  }
+
+  .c-container ul li:last-of-type {
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    margin-left: 170px;
+  }
+
+  .c-container .c-button {
+    cursor: pointer;
   }
 }
