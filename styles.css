@@ -6,6 +6,7 @@
   --color1: #344563;
   --color2: #6070ff;
   --color3: #172b4d;
+  --font-family: 'Poppins';
 }
 
 *,
@@ -390,6 +391,7 @@ textarea {
     align-items: flex-start;
     justify-content: center;
     background-color: white;
+    font-family: var(--font-family);
   }
 
   .h-main h1 {
@@ -400,6 +402,7 @@ textarea {
   .works-container {
     flex-direction: row;
     gap: 1.4rem;
+    font-family: var(--font-family);
   }
 
   .works-container img {
@@ -414,6 +417,7 @@ textarea {
     background-color: white;
     border-top-right-radius: 100px;
     padding: 114px 0;
+    font-family: var(--font-family);
   }
 
   .about-container {
@@ -441,6 +445,7 @@ textarea {
   .contact-section {
     padding: 5% 25%;
     margin-top: 5%;
+    font-style: normal;
   }
 
   .c-container h2 {
