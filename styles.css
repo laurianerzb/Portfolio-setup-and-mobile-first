@@ -69,6 +69,12 @@ nav {
   margin: 29px 0;
 }
 
+.menu-desktop {
+  display: none;
+}
+
+/* headline section */
+
 .headline-section {
   background-image: url("./images/Header\ bg.svg");
   background-repeat: no-repeat;
@@ -354,4 +360,81 @@ textarea {
   background: #fff;
   border-radius: 8px;
   margin-left: 10px;
+}
+
+/* Desktop version QUERIES */
+@media (min-width: 764px) {
+  header nav {
+    padding: 1rem 10%;
+  }
+
+  header .menu {
+    display: none;
+  }
+
+  .menu-desktop {
+    display: flex;
+    gap: 2.8rem;
+    list-style-type: none;
+  }
+
+  .menu-desktop a {
+    text-decoration: none;
+  }
+
+  .headline-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .h-main h1 {
+    font-size: 3rem;
+  }
+
+  /* Works section */
+  .works-container {
+    flex-direction: row;
+    gap: 1.4rem;
+  }
+
+  .works-container img {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 50%;
+  }
+
+  /* about section */
+
+  .about-container {
+    float: left;
+    height: auto;
+    width: 37%;
+    padding: 0 10px;
+  }
+
+  .languages-list-desk ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .languages-list-desk ul li {
+    float: left;
+    justify-content: space-around;
+    margin-left: 0.3rem;
+  }
+
+  /* contact section */
+
+  .contact-section {
+    padding: 5% 25%;
+    margin-top: 5%;
+  }
+
+  .c-container h2 {
+    margin: 0;
+  }
 }
