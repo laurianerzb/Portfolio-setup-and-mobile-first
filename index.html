@@ -28,7 +28,7 @@
           <div class="h-main">
             <h1>I'm Lauriane,<br />Glad to see you</h1>
             <p>I'm a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don't hestiate to contact me.</p>
-            <a href="#" class="connect">LET'S CONNECT</a>
+            <a href="#" class="connect">Lets Connect</a>
             <ul class="h-socials-links">
               <li>
                 <a href="https://twitter.com/Ruzuba_"><img src="./images/Vector.svg" alt="twitter"/></a>
@@ -153,7 +153,7 @@
       <div class="about-container">
         <h2>About<br />Myself</h2>
         <p>I'm a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don't hestiate to contact me.</p>
-        <a href="#" class="connect">LET'S CONNECT</a>
+        <a href="#" class="connect">Lets Connect</a>
         <ul class="a-socials-links">
           <li>
             <a href="https://twitter.com/Ruzuba_"><img src="./images/Vector.svg" alt="twitter"/></a>
@@ -172,8 +172,8 @@
           </li>
         </ul>
         <a href="#" class="button">Get my resume</a>
-      </div>
-      <div class="about-container">
+        </div>
+        <div class="about-container">
         <ul class="a-languages">
           <li class="languages-list-desk">
             <span>Languages</span>
@@ -207,28 +207,23 @@
     <!-----------------CONTACT SECTION---------------------------->
     <section class="contact-section">
       <div class="c-container">
-          <h2>Contact me</h2>
-          <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it </p>
-        <form class="c-form-container" action="https://formspree.io/f/xyyvwogq" method="post">
-          <ul class="c-form">
-            <li>
-              <label for="name"></label>
-              <input type="text" id="name" name="username" maxlength="30" placeholder="name here" required/>
-            </li>
-            <li>
-              <label for="email"></label>
-              <input type="email" id="email" name="email" placeholder="email here" required/>
-            </li>
-            <li>
-              <label for="message"></label>
-              <textarea id="message" name="user_message" maxlength="500" placeholder="write your message here" required></textarea>
-            </li>
-            <li>
-              <button class="c-button" type="submit">Get in touch</button>
-            </li>
-          </ul>
-        </form>
-      </div>
+        <h2>Contact me</h2>
+        <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it </p>
+      <form id="contact-form" class="form-container" action="https://formspree.io/f/xyyvwogq" method="post">
+       
+         <div clas="row">
+            <input type="text" id="name" name="username" maxlength="30" placeholder="name here" required/>
+          </div>
+        <div clas="row">
+            <input type="email" id="email" name="email" placeholder="email here" required/>
+          </div>
+        <div clas="row">
+            <textarea id="message" name="user_message" maxlength="500" placeholder="write your message here" required></textarea>
+          </div>
+        <div>
+            <button class="contact-button" type="submit">Get in touch</button>
+          </div>
+      </form>
     </section>
 
   </body>
