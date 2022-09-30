@@ -206,7 +206,7 @@
     </section>
     <!-----------------CONTACT SECTION---------------------------->
     <section class="contact-section">
-      <div class="c-container">
+      <!--<div class="c-container">
           <h2>Contact me</h2>
           <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it </p>
         <form class="c-form-container" action="https://formspree.io/f/xyyvwogq" method="post">
@@ -228,7 +228,25 @@
             </li>
           </ul>
         </form>
-      </div>
+      </div>-->
+      <div class="c-container">
+        <h2>Contact me</h2>
+        <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it </p>
+      <form id="contact-form" class="form-container" action="https://formspree.io/f/xyyvwogq" method="post">
+       
+         <div clas="row">
+            <input type="text" id="name" name="username" maxlength="30" placeholder="name here" required/>
+          </div>
+        <div clas="row">
+            <input type="email" id="email" name="email" placeholder="email here" required/>
+          </div>
+        <div clas="row">
+            <textarea id="message" name="user_message" maxlength="500" placeholder="write your message here" required></textarea>
+          </div>
+        <div>
+            <button class="contact-button" type="submit">Get in touch</button>
+          </div>
+      </form>
     </section>
 
   </body>
