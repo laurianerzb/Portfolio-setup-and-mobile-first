@@ -359,10 +359,10 @@ div .contact-button {
   .h-main h1 {
     font-size: 3rem;
   }
-  
-.h-main h1:hover{
-  transform: rotate(5deg);
-}
+
+  .h-main h1:hover {
+    transform: rotate(5deg);
+  }
 
   /* Works section */
   .works-container {
