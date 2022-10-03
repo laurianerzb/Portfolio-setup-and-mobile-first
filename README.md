@@ -9,7 +9,8 @@ Microverse Portfolio setup and mobile first project consist of building a simple
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+- To visit the web page use this link [Portfolio_Web_Page] (https://laurianerzb.github.io/Portfolio-setup-and-mobile-first/)
+- To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 - visit https://github.com/laurianerzb/Portfolio-setup-and-mobile-first
