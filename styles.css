@@ -101,7 +101,7 @@ nav {
 .connect {
   display: block;
   text-decoration: none;
-  color: #7f8cff;
+  color: #0d1984;
   margin-bottom: 12px;
 }
 
@@ -155,7 +155,7 @@ nav {
 .position li {
   margin-left: 30px;
   font-size: 0.8rem;
-  color: #7a869a;
+  color: #3a424f;
   font-weight: 600;
 }
 
@@ -170,7 +170,7 @@ nav {
   padding: 4px 12px;
   background: #ebebff;
   border-radius: 8px;
-  color: var(--color2);
+  color: #0d1984;
   font-size: 12px;
 }
 
@@ -267,31 +267,36 @@ nav {
   background-image: url(images/contact\ form\ shapes-mobile.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #6070ff;
+  background-color: #3e51fb;
   border-top-left-radius: 98px;
   width: 100%;
   min-width: 375px;
   display: flex;
   margin-left: 10px;
-  height: 779px;
+  height: auto;
+}
+
+.c-container {
+  width: 90%;
 }
 
 .contact-section h2 {
   font-size: 40px;
   color: white;
   align-items: center;
-  text-align: center;
-  margin-top: 50px;
-  height: 102px;
-  width: 327px;
+  margin-top: 10px;
+  margin-left: 40px;
+  height: auto;
+  width: 100%;
 }
 
 .contact-section p {
   color: white;
+  margin-top: 25px;
+  margin-left: 90px;
 }
 
 #contact_form {
-  background-color: #405d27;
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
@@ -323,13 +328,18 @@ textarea {
 
 div .contact-button {
   border-radius: 8px;
-  margin-left: 20px;
+  margin-right: 1px;
   height: 48px;
-  width: 140px;
-  background: #ebebff;
+  width: 7rem;
+  background: white;
   border: none;
-  color: #396df2;
-  font-size: 17px;
+  color: #0d1984;
+  font-size: 1rem;
+  margin-left: 0.2rem;
+}
+
+.label {
+  display: none;
 }
 
 .contact-section button:hover {

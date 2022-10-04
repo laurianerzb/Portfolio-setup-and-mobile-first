@@ -12,9 +12,9 @@
       <header class="header">
         <nav class="nav-menu">
           <a href="#">
-            <img src="./images/Logo Placeholder.svg" alt="logo" />
+            <img src="./images/Logo Placeholder.svg" alt="logo alternative text" />
           </a>
-          <img class="menu" src="./images/Union.svg" alt="menu"/>
+          <img class="menu" src="./images/Union.svg" alt="menu alternative text"/>
           <ul class="menu-desktop" href="#">
             <li><a href="#">Portfolio</a></li>
             <li><a href="#">About</a></li>
@@ -31,19 +31,19 @@
             <a href="#" class="connect">Lets Connect</a>
             <ul class="h-socials-links">
               <li>
-                <a href="https://twitter.com/Ruzuba_"><img src="./images/Vector.svg" alt="twitter"/></a>
+                <a href="https://twitter.com/Ruzuba_"><img src="./images/Vector.svg" alt="twitter-icon"/></a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/ruzuba-lauriane-36682b227/"><img src="./images/Linkedin icon.svg" alt="Linkedin"/></a>
+                <a href="https://www.linkedin.com/in/ruzuba-lauriane-36682b227/"><img src="./images/Linkedin icon.svg" alt="Linkedin-icon"/></a>
               </li>
               <li>
-                <a href="#"><img src="./images/Vector (1).svg" alt="intelli" /></a>
+                <a href="#"><img src="./images/Vector (1).svg" alt="intelli-icon" /></a>
               </li>
               <li>
-                <a href="https://github.com/laurianerzb"><img src="./images/Vector (2).svg" alt="github"/></a>
+                <a href="https://github.com/laurianerzb"><img src="./images/Vector (2).svg" alt="github-icon"/></a>
               </li>
               <li>
-                <a href="#"><img src="./images/Vector (3).svg" alt="logo" /></a>
+                <a href="#"><img src="./images/Vector (3).svg" alt="medium-icon" /></a>
               </li>
             </ul>
           </div>
@@ -156,19 +156,19 @@
         <a href="#" class="connect">Lets Connect</a>
         <ul class="a-socials-links">
           <li>
-            <a href="https://twitter.com/Ruzuba_"><img src="./images/Vector.svg" alt="twitter"/></a>
+            <a href="https://twitter.com/Ruzuba_"><img src="./images/Vector.svg" alt="twitter-icon"/></a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/ruzuba-lauriane-36682b227/"><img src="./images/Linkedin icon.svg" alt="Linkedin"/></a>
+            <a href="https://www.linkedin.com/in/ruzuba-lauriane-36682b227/"><img src="./images/Linkedin icon.svg" alt="Linkedin-icon"/></a>
           </li>
           <li>
-            <a href="#"><img src="./images/Vector (1).svg" alt="intelli" /></a>
+            <a href="#"><img src="./images/Vector (1).svg" alt="intelli-icon" /></a>
           </li>
           <li>
-            <a href="https://github.com/laurianerzb"><img src="./images/Vector (2).svg" alt="github"/></a>
+            <a href="https://github.com/laurianerzb"><img src="./images/Vector (2).svg" alt="github-icon"/></a>
           </li>
           <li>
-            <a href="#"><img src="./images/Vector (3).svg" alt="logo" /></a>
+            <a href="#"><img src="./images/Vector (3).svg" alt="medium-icon" /></a>
           </li>
         </ul>
         <a href="#" class="button">Get my resume</a>
@@ -177,18 +177,18 @@
         <ul class="a-languages">
           <li class="languages-list-desk">
             <span>Languages</span>
-            <img class="arrow" src="./images/arrow down.svg" alt="arrow" />
+            <img class="arrow" src="./images/arrow down.svg" alt="arrow-icon" />
             <ul>
               <li class="languages-list">
-                <img src="./images/css logo.svg" alt="javascript" />
+                <img src="./images/css logo.svg" alt="javascript-icon" />
                 <p>javascript</p>
               </li>
               <li class="languages-list">
-                <img src="./images/html logo.svg" alt="htm" />
+                <img src="./images/html logo.svg" alt="html-icon" />
                 <p>HTML</p>
               </li>
               <li class="languages-list">
-                <img src="./images/javascript logo.svg" alt="css" />
+                <img src="./images/javascript logo.svg" alt="css-icon" />
                 <p>Css</p>
               </li>
             </ul>
@@ -209,21 +209,25 @@
       <div class="c-container">
         <h2>Contact me</h2>
         <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it </p>
-      <form id="contact-form" class="form-container" action="https://formspree.io/f/xyyvwogq" method="post">
+        <form id="contact-form" class="form-container" action="https://formspree.io/f/xyyvwogq" method="post">
        
-         <div clas="row">
+         <div class="row">
+            <label id="name" class="label" for="name">Name</label>
             <input type="text" id="name" name="username" maxlength="30" placeholder="name here" required/>
           </div>
-        <div clas="row">
+        <div class="row">
+          <label id="email" class="label" for="email">Email</label>
             <input type="email" id="email" name="email" placeholder="email here" required/>
           </div>
-        <div clas="row">
+        <div class="row">
+            <label id="message" class="label" for="message">Message</label>
             <textarea id="message" name="user_message" maxlength="500" placeholder="write your message here" required></textarea>
           </div>
-        <div>
-            <button class="contact-button" type="submit">Get in touch</button>
-          </div>
-      </form>
+        <div class="row">
+            <button id="contact-button" class="contact-button" type="submit">Get in touch</button>
+        </div>
+       </form>
+       </div>
     </section>
 
   </body>
