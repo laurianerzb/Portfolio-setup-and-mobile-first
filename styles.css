@@ -170,7 +170,7 @@ nav {
   padding: 4px 12px;
   background: #ebebff;
   border-radius: 8px;
-  color:#0d1984;
+  color: #0d1984;
   font-size: 12px;
 }
 
@@ -276,14 +276,14 @@ nav {
   height: auto;
 }
 
-.c-container{
-  width:90%;
+.c-container {
+  width: 90%;
 }
 
 .contact-section h2 {
   font-size: 40px;
   color: white;
-  align-items:center;
+  align-items: center;
   margin-top: 10px;
   margin-left: 40px;
   height: auto;
@@ -331,10 +331,11 @@ div .contact-button {
   margin-right: 1px;
   height: 48px;
   width: 7rem;
-  background: #ebebff;
+  background: white;
   border: none;
   color: #396df2;
   font-size: 1rem;
+  margin-left: 0.2rem;
 }
 
 .contact-section button:hover {
