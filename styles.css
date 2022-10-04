@@ -101,7 +101,7 @@ nav {
 .connect {
   display: block;
   text-decoration: none;
-  color: #7f8cff;
+  color: #0d1984;
   margin-bottom: 12px;
 }
 
@@ -155,7 +155,7 @@ nav {
 .position li {
   margin-left: 30px;
   font-size: 0.8rem;
-  color: #7a869a;
+  color: #3a424f;
   font-weight: 600;
 }
 
@@ -170,7 +170,7 @@ nav {
   padding: 4px 12px;
   background: #ebebff;
   border-radius: 8px;
-  color: var(--color2);
+  color:#0d1984;
   font-size: 12px;
 }
 
@@ -267,7 +267,7 @@ nav {
   background-image: url(images/contact\ form\ shapes-mobile.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #6070ff;
+  background-color: #3e51fb;
   border-top-left-radius: 98px;
   width: 100%;
   min-width: 375px;
