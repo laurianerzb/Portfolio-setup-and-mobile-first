@@ -99,6 +99,7 @@ nav {
   opacity: 0.8;
   padding: 1.2rem;
   z-index: 999;
+  overflow: hidden;
 }
 
 .close-menu {
