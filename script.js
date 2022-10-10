@@ -2,11 +2,11 @@ const mobileMenu = document.querySelector('.mobile-menu-container');
 const navigationMenu = document.querySelectorAll('.mobile-menu-item');
 const hamburgerMenu = document.querySelector('.hamburger-menu');
 const closeMenu = document.querySelector('.close-menu-icon');
-const blurBg = document.querySelector('#element');
+const blurBg = document.querySelector('.blur-bg');
 
 hamburgerMenu.addEventListener('click', () => {
   mobileMenu.classList.remove('menu-hide');
-  blurBg.style.filter = 'blur(5px)';
+  blurBg.style.filter = 'blur(4px)';
 });
 
 closeMenu.addEventListener('click', () => {
