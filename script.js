@@ -17,5 +17,6 @@ closeMenu.addEventListener('click', () => {
 navigationMenu.forEach((item) => {
   item.addEventListener('click', () => {
     mobileMenu.classList.add('menu-hide');
+    blurBg.style.filter = 'blur(0)';
   });
 });
