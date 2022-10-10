@@ -1,29 +1,21 @@
-// Code goes here
-const { body } = document;
-let toggleNav = false;
-const menuBtn = document.querySelector('#menu-btn');
-const menuContainer = document.querySelector('.menu-container');
-const closeBtn = document.querySelector('.image-container');
-const navLinks = document.querySelector('.nav-links').childNodes;
+const mobileMenu = document.querySelector('.mobile-menu-container');
+const navigationMenu = document.querySelectorAll('.mobile-menu-item');
+const hamburgerMenu = document.querySelector('.hamburger-menu');
+const closeMenu = document.querySelector('.close-menu-icon');
+const blurBg = document.querySelector('#element');
 
-const openMenu = () => {
-  if (toggleNav === false) {
-    menuContainer.style.display = 'block';
-    body.style.overflow = 'hidden';
-    toggleNav = true;
-  }
-};
+hamburgerMenu.addEventListener('click', () => {
+  mobileMenu.classList.remove('menu-hide');
+  blurBg.style.filter = 'blur(5px)';
+});
 
-const closeMenu = () => {
-  if (toggleNav === true) {
-    menuContainer.style.display = ' none';
-    body.style.overflow = 'initial';
-    toggleNav = false;
-  }
-};
+closeMenu.addEventListener('click', () => {
+  mobileMenu.classList.add('menu-hide');
+  blurBg.style.filter = 'blur(0)';
+});
 
-menuBtn.addEventListener('click', openMenu);
-closeBtn.addEventListener('click', closeMenu);
-navLinks.forEach((link) => {
-  link.addEventListener('click', closeMenu);
+navigationMenu.forEach((item) => {
+  item.addEventListener('click', () => {
+    mobileMenu.classList.add('menu-hide');
+  });
 });
