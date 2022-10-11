@@ -4,26 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    
     <title>Portfolio Setup and Mobile First</title>
   </head>
   <body>
     <!-----------------HEAD SECTION---------------------------->
     <section class="head-section">
       <header class="header">
-        <nav class="nav-menu">
+       <nav class="nav-menu">
           <a href="#">
             <img src="./images/Logo Placeholder.svg" alt="logo alternative text" />
           </a>
-          <img class="menu" src="./images/Union.svg" alt="menu alternative text"/>
-          <ul class="menu-desktop" href="#">
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
-      </header>
+          
+          <div class="navigation-menu">
+              <ul class="menu-desktop" href="#">
+                <li><a href="#my-works">Portfolio</a></li>
+                <li><a href="#about-me">About</a></li>
+                <li><a href="#contact-me">Contact</a></li>
+              </ul>
+              <img src="./images/Union.svg" alt="menu-icon" class="menu hamburger-menu"/>
+          </div>
+
+          <div class="menu-hide mobile-menu-container">
+            <div class="mobile-menu">
+              <div class="close-menu">
+                <img class="close-menu-icon" src="./images/Icon.svg" alt="close menu icon">
+              </div>
+              <ul class="mobile-menu-item-list">
+                <li class="mobile-menu-item"><a href="#my-works">Portfolio</a></li>
+                <li class="mobile-menu-item"><a href="#about-me">About</a></li>
+                <li class="mobile-menu-item"><a href="#contact-me">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+
+        </nav>                   
+      </header>  
             <!-----------------HEADLINE SECTION---------------------------->
-      <section class="headline-section">
+      <section class="headline-section blur-bg">
         <div class="h-container h-content">
           <div class="h-main">
             <h1>I'm Lauriane,<br />Glad to see you</h1>
@@ -51,7 +69,7 @@
       </section>
     </section>
   <!-----------------WORKS SECTION---------------------------->
-    <section class="works-section">
+    <section id="my-works" class="works-section">
       <div class="works-container">
         <img src="./images/Snapshoot Portfolio.svg" alt="project1" />
         <div class="works-content">
@@ -149,7 +167,7 @@
       </div>
     </section>
       <!-----------------ABOUT MYSELF SECTION---------------------------->
-    <section class="about-section">
+    <section id="about-me" class="about-section">
       <div class="about-container">
         <h2>About<br />Myself</h2>
         <p>I'm a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don't hestiate to contact me.</p>
@@ -205,7 +223,7 @@
      </div>
     </section>
     <!-----------------CONTACT SECTION---------------------------->
-    <section class="contact-section">
+    <section id="contact-me" class="contact-section">
       <div class="c-container">
         <h2>Contact me</h2>
         <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it </p>
@@ -229,6 +247,6 @@
        </form>
        </div>
     </section>
-
+    <script src="script.js"></script>
   </body>
 </html>
